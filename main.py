@@ -10,6 +10,10 @@ app = FastAPI()
 
 MODEL = tf.keras.models.load_model("new_shape_analysis.h5")
 
+@app.get("/")
+async def root():
+    return {"Predicting shape analysis. Add '/docs' after 8001 to use the page"}
+
 @app.get("/ping")
 async def ping():
     return "Predicting shape analysis"
