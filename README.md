@@ -1,7 +1,7 @@
 # shape_analysis_classification
 Analyzing the shape of a cell using NN
 
-In main.py script contains the FAST_API application
+main.py script contains the FAST_API application
 
 Run the main.py to deploy the trained model in local host.
 
