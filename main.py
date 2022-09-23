@@ -28,7 +28,7 @@ async def predict(
     image=cv2.resize(image ,(256,256))
     image=np.expand_dims(image, axis=0)
     
-    predictions = MODEL.predict(image[...,None])
+    predictions = MODEL.predict(image)
     prediction=["good" if i > 0.5 else "defect" for i in predictions]
 
     return {
