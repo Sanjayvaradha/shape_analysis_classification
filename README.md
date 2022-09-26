@@ -9,8 +9,9 @@ Click the local host link, then do the following,
 
 In URL, add "/docs" after 8001, the FAST-API application will open.
 
-Click on POST and "try it out" button.
+Click on the POST and "try it out" button.
 
-Under Resquest body section choose an image file(shapes from test_images folder) to upload and click "Execute" button predict the image.
+Under the Request body section choose an image file(shapes from the test_images folder) to upload and click the "Execute" button predicts the image.
 
-Under Responses section the prediction will be displayed with class name either "good" or "bad" shape.
+Under the Responses section, the prediction will be displayed with the class name either "good" or "bad" shape.
+
