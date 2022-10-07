@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+tensorflow==2.10.0
+opencv-python
+pillow
+numpy
+
+
+
+
