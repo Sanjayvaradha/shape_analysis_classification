@@ -15,7 +15,7 @@ Under the Request body section choose an image file(shapes from the test_images 
 
 Under the Responses section, the prediction will be displayed with the class name either "good" or "bad" shape.
 
-#DOCKER
+# DOCKER
 The model has been dockerized and can be found on the below link:
 
 https://hub.docker.com/r/sanjayggmu/shape_analysis_test
