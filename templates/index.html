@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Shape Analysis </title>
+</head>
+
+<body>
+    <h1 class="text-center">Shape Analysis</h1>
+
+    <form class="p-3 text-center" action="/" , method="post" enctype="multipart/form-data">
+        <input class="form-control" type="file" name="file">
+        <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+    </form>
+
+    {% if prediction %}
+    <p class="text-center"> Image is {{prediction}}</p>
+    {% endif %}
+</body>
+
+</html>
